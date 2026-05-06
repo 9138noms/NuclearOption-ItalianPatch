@@ -1,0 +1,45 @@
+╔══════════════════════════════════════════════════╗
+║   Nuclear Option — Patch in Italiano                ║
+║   (Localization Patch)                              ║
+╚══════════════════════════════════════════════════╝
+
+■ Requisiti
+  - Nuclear Option (Steam, Accesso Anticipato 0.32.5+)
+  - BepInEx 5.x (https://github.com/BepInEx/BepInEx/releases)
+
+■ Installazione
+  1. Installa BepInEx 5.x nella cartella del gioco.
+     (Esempio: C:\Program Files (x86)\Steam\steamapps\common\Nuclear Option\)
+
+  2. Avvia il gioco una volta, poi chiudilo.
+     (Questo crea la struttura delle cartelle BepInEx)
+
+  3. Copia tutti i file di questa cartella in:
+     [Cartella del gioco]\BepInEx\plugins\LocalizationPatch\
+
+     ※ Se la cartella «LocalizationPatch» non esiste, creala manualmente.
+
+  4. Modifica BepInEx\config\com.noms.localizationpatch.cfg, impostando:
+        [General]
+        Language = it
+
+  5. Avvia il gioco — la traduzione italiana verrà applicata
+     automaticamente.
+
+■ File inclusi
+  - LocalizationPatch.dll          : Plugin di traduzione
+  - LocalizationPatchDropdown.dll  : Addon per i menu a tendina
+  - it.json                        : Dati di traduzione (2.841 voci)
+  - Exo2-Regular.ttf               : Font Latin Extended
+
+■ Tasti di scelta rapida nel gioco
+  - F10         : Mostra/nascondi overlay di debug
+  - Ctrl+F10    : Ricarica i dati di traduzione (hot reload)
+
+■ Crediti
+  - Traduzione: Doktor [MUSH] (community contributor)
+  - Plugin / framework: https://github.com/9138noms/NuclearOption-TranslationToolkit
+
+■ Licenza font
+  Exo 2 — SIL Open Font License 1.1
+  https://fonts.google.com/specimen/Exo+2
