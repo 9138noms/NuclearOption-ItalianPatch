@@ -82,3 +82,11 @@ Exo 2 — [SIL Open Font License 1.1](https://fonts.google.com/specimen/Exo+2)
 
 Toolkit di traduzione (per creare la tua patch linguistica):
 https://github.com/9138noms/NuclearOption-TranslationToolkit
+
+## Source code
+
+This mod ships `LocalizationPatch.dll`, a BepInEx plugin. Its full source is published
+at **https://github.com/9138noms/NuclearOption-LocalizationPatch** — no obfuscation, no network access, no code outside the game folder.
+
+The same plugin binary is shared by every language patch; only the `.json` and the font
+differ between them.
